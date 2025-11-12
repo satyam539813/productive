@@ -1,4 +1,4 @@
-# 🧠 AI Productivity Assistant
+ 🧠 AI Productivity Assistant
 
 An end-to-end AI/ML project using **FastAPI** and **Hugging Face API**  
 to predict productivity categories ("Low", "Medium", "High")  
@@ -6,7 +6,7 @@ and generate intelligent insights.
 
 ---
 
-## 🚀 How to Run Locally
+ 🚀 How to Run Locally
 
 ```bash
 # 1. Clone repo
