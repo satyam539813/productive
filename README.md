@@ -17,6 +17,8 @@ It helps you:
 
 ---
 
+![Alt text](frontend/public/sample.png)
+
 ⚙️ Features
 
 | Feature | Description |
