@@ -1,0 +1,25 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\Satyam Kumar\\Downloads\\ai-productivity-assistant']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [1116] using StatReload
+INFO:     Started server process [24452]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+DEBUG: Found 11 records for weekly summary
+DEBUG: Sending prompt to AI: This week, the user had 0 high, 0 medium, and 11 low productivity days out of 11 total. Provide a concise AI summary with suggestions for improvement.
+DEBUG: AI response: <s> [B_INST] Here's a concise AI summary with suggestions for improvement:
+
+**Summary:**
+This week, you experienced 11 days of low productivity, with no high or medium productivity days. This suggests a consistent struggle with focus, motivation, or task management.
+
+**Suggestions for Improvement:**
+1. **Break Tasks into Smaller Steps:** Large tasks can feel overwhelming. Break them into smaller, manageable steps to build momentum.
+2. **Prioritize Tasks:** Use a system like the Eisenhower Matrix to focus on whatÆs urgent and important.
+3. **Set Micro-Goals:** Aim for small, achievable goals each day to build confidence and momentum.
+4. **Eliminate Distractions:** Identify and minimize distractions (e.g., phone, social media) during work hours.
+5. **Review Your Schedule:** Ensure your tasks are aligned with your energy levels and peak productivity times.
+6. **Reflect on Obstacles:** Identify whatÆs causing low productivity (e.g., stress, lack of clarity) and address it directly.
+
+**Actionable Step for Tomorrow:**
+Start with one small, high-priority task first thing in the morning to set a productive tone for the day. [/B_INST]
+INFO:     127.0.0.1:55634 - "GET /weekly_summary HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'utils\ai_insights.py'. Reloading...

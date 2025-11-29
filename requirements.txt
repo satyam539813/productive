@@ -5,3 +5,5 @@ numpy
 scikit-learn
 requests
 joblib
+python-dotenv
+sqlalchemy

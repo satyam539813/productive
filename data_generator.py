@@ -21,12 +21,14 @@ def generate_synthetic_data(n=500):
         0.4 * df["focus_level"] * 10
     )
     df["productivity"] = pd.cut(
-        score, bins=[0, 25, 45, 100],
+        score, bins=[0, 6, 11, 25],
         labels=["Low", "Medium", "High"]
     )
 
     df.to_csv("synthetic_productivity.csv", index=False)
-    print("✅ Synthetic data generated: synthetic_productivity.csv")
+    print("Synthetic data generated: synthetic_productivity.csv")
+    print("Label distribution:")
+    print(df["productivity"].value_counts())
 
 if __name__ == "__main__":
     generate_synthetic_data()
